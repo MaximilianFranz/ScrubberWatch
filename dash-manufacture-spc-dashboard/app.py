@@ -79,7 +79,7 @@ def build_banner():
             html.Div(
                 id="banner-text",
                 children=[
-                    html.H5("Clean Vision"),
+                    html.H5("Scrubber Watch"),
                     html.H6("Enviromental Emission Dashboard"),
                 ],
             ),
@@ -1389,4 +1389,4 @@ def update_piechart(interval, stored_data):
 
 # Running the server
 if __name__ == "__main__":
-    app.run_server(debug=True, port=8050)
+    app.run_server(debug=False, port=8050)
