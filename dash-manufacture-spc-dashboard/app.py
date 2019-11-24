@@ -79,7 +79,7 @@ def build_banner():
             html.Div(
                 id="banner-text",
                 children=[
-                    html.H5("Clean Vision"),
+                    html.H5("Scrubber Watch"),
                     html.H6("Enviromental Emission Dashboard"),
                 ],
             ),
@@ -342,7 +342,7 @@ def build_quick_stats_panel():
             html.Div(
                 id="card-3",
                 children=[
-                    html.Img(src='/assets/bounding.jpg', style={
+                    html.Img(src='/assets/pollution2.jpg', style={
                     'width' : '100%',
                     }),
                     html.P("MS Pollution"),
@@ -421,23 +421,27 @@ def build_top_panel(stopped_interval):
                     #generate_section_banner("% OOC per Parameter"),
                     html.P("Sulphur-Dioxide last 24h"),#: "+ str(int(mean_so)) + "µg/m³"),
                     daq.Gauge(
-                        id="progress-gauge",
+                        id="so-gauge",
                         #color="#9B51E0",
                         max=200,
                         min=0,
                         #showCurrentValue=True,  # default size 200 pixel
                         value=mean_so,
                         units="µg/m³",
+                        style={"height": "40%", "width": "50%"},
+                        size=150,
                     ),
                     html.P("Nitrogen-Dioxide last 24h"),#: " + str(int(mean_no))),
                     daq.Gauge(
                         color={"gradient":True,"ranges":{"green":[0,6],"yellow":[6,8],"red":[8,10]}},
-                        id="progress-gauge",
+                        id="no-gauge",
                         max=240,
                         min=0,
                         #showCurrentValue=True,  # default size 200 pixel
                         value=mean_no,
                         units="µg/m³",
+                        style={"height": "40%", "width": "50%"},
+                        size=150,
                     ),
                 ],
             ),
@@ -1389,4 +1393,4 @@ def update_piechart(interval, stored_data):
 
 # Running the server
 if __name__ == "__main__":
-    app.run_server(debug=True, port=8050)
+    app.run_server(debug=False, port=8050)
