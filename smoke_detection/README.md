@@ -10,6 +10,13 @@ You should now have the following folder structure:
 ---smoke_detection/train/images/*.png
 ```
 
+2. unzip the additional smoke data `ship_smokes_fume_pollution.zip` and link it to the train folder
+
+```bash
+unzip ship_smokes_fume_pollution.zip
+mv ship_smokes_fume_pollution train/images
+```
+
 2. copy `train_smoke.csv` to `train` folder
 
 ```bash
