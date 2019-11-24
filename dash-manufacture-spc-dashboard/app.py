@@ -428,6 +428,8 @@ def build_top_panel(stopped_interval):
                         #showCurrentValue=True,  # default size 200 pixel
                         value=mean_so,
                         units="µg/m³",
+                        style={"height": "40%", "width": "50%"},
+                        size=150,
                     ),
                     html.P("Nitrogen-Dioxide last 24h"),#: " + str(int(mean_no))),
                     daq.Gauge(
@@ -438,6 +440,8 @@ def build_top_panel(stopped_interval):
                         #showCurrentValue=True,  # default size 200 pixel
                         value=mean_no,
                         units="µg/m³",
+                        style={"height": "40%", "width": "50%"},
+                        size=150,
                     ),
                 ],
             ),
