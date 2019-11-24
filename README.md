@@ -1,6 +1,15 @@
 # Scrubber Watch
 
+
+
 ## Brief description
+
+
+Links:
+* pitch slides : 
+    * TODO: add static demo and a little bit of description
+* Paper: to come
+* 1-Page summary 
 
 
 ## Scrubber Watch - Dashboard
