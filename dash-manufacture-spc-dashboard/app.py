@@ -342,7 +342,7 @@ def build_quick_stats_panel():
             html.Div(
                 id="card-3",
                 children=[
-                    html.Img(src='/assets/bounding.jpg', style={
+                    html.Img(src='/assets/pollution2.jpg', style={
                     'width' : '100%',
                     }),
                     html.P("MS Pollution"),
@@ -1393,4 +1393,4 @@ def update_piechart(interval, stored_data):
 
 # Running the server
 if __name__ == "__main__":
-    app.run_server(debug=True, port=8050)
+    app.run_server(debug=False, port=8050)
