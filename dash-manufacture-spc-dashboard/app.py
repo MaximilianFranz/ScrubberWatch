@@ -421,7 +421,7 @@ def build_top_panel(stopped_interval):
                     #generate_section_banner("% OOC per Parameter"),
                     html.P("Sulphur-Dioxide last 24h"),#: "+ str(int(mean_so)) + "µg/m³"),
                     daq.Gauge(
-                        id="progress-gauge",
+                        id="so-gauge",
                         #color="#9B51E0",
                         max=200,
                         min=0,
@@ -432,7 +432,7 @@ def build_top_panel(stopped_interval):
                     html.P("Nitrogen-Dioxide last 24h"),#: " + str(int(mean_no))),
                     daq.Gauge(
                         color={"gradient":True,"ranges":{"green":[0,6],"yellow":[6,8],"red":[8,10]}},
-                        id="progress-gauge",
+                        id="no-gauge",
                         max=240,
                         min=0,
                         #showCurrentValue=True,  # default size 200 pixel
@@ -1389,4 +1389,4 @@ def update_piechart(interval, stored_data):
 
 # Running the server
 if __name__ == "__main__":
-    app.run_server(debug=False, port=8050)
+    app.run_server(debug=True, port=8050)
