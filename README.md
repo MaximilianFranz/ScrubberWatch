@@ -14,6 +14,10 @@ Links:
 
 ## Scrubber Watch - Dashboard
 
+The Dashboard is implemented in [dash](https://plot.ly/dash/). To execute it, install the environment specified in the `dashboard/requirements.txt` via `pip install -r requirements.txt`. Then run `python app.py` within the `dashboard` directory. 
+
+
+![dashboard demo](assets/dashboard.png "A small DEMO dashboard")
 
 
 ## Analyzing Scrubber usage by detecting smoke on ships
@@ -50,6 +54,7 @@ You should now have the following folder structure:
     python predict_smoke.py image.jpg
     ```
 
+    
 ### Dataset
 
 * We detect broken or missing scrubbers by looking at images of ships.
@@ -84,4 +89,5 @@ jupyter-lab
 ```
 
 ![annotation tool demo](assets/annotation_tool.png "Our self-build annotation tool.")
+
 
