@@ -1,16 +1,20 @@
-# Scrubber Watch
+# ScrubberWatch
 
-
+ScrubberWatch is the winning project of the [EIT Digital DeepHack Hamburg](https://ultrahack.org/hamburghack2019). We thank all the mentors, the organizers and especially [Carsten Bullemer](https://seadevcon.com/about-us/) for the valuable discussions, ideas and feedback. 
 
 ## Brief description
 
 
-Links:
-* pitch slides : 
-    * TODO: add static demo and a little bit of description
+ToDo:
 * Paper: to come
 * 1-Page summary 
 
+
+## Early Notebooks
+
+The notebooks in `notebooks/` were part of our analysis of the data we were given for the challenge. They are undocumented, because the idea we were following there didn't work out and we pivoted midway through the hackathon to the project ScrubberWatch with which we eventually won the competition at [EIT Digital DeepHack Hamburg](https://ultrahack.org/hamburghack2019).
+
+The notebooks deal with data that was provided solely for the hackathon, thus you won't be able to rerun them.
 
 ## Scrubber Watch - Dashboard
 
