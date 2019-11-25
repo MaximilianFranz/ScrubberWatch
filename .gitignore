@@ -3,6 +3,8 @@
 .ipynb_checkpoints
 .vscode/settings.json
 
+# Ignore VSCODE stuff
+.vscode/
 
 # Created by https://www.gitignore.io/api/tex,python
 # Edit at https://www.gitignore.io/?templates=tex,python
