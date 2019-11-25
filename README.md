@@ -1,4 +1,5 @@
 # ScrubberWatch
+The idea behind ScrubberWatch is to detect the level of emissions of incoming ships in the Hamburg Harbour using Computer Vision. Essentially, we try to classify whether the [Scrubber](http://www.hfw.com/IMO-2020-Scrubbers-A-good-investment) is turned on based on the smoke the ships are emitting. 
 
 ScrubberWatch is the winning project of the [EIT Digital DeepHack Hamburg](https://ultrahack.org/hamburghack2019). We thank all the mentors, the organizers and especially [Carsten Bullemer](https://seadevcon.com/about-us/) for the valuable discussions, ideas and feedback. 
 
