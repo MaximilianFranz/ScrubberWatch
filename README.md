@@ -24,6 +24,8 @@ The Dashboard is implemented in [dash](https://plot.ly/dash/). To execute it, in
 
 ![dashboard demo](assets/dashboard.png "A small DEMO dashboard")
 
+Beware: the code for the dashboard is hackathon-quality!
+
 
 ## Analyzing Scrubber usage by detecting smoke on ships
 
