@@ -83,3 +83,12 @@ jupyter-lab
 ![annotation tool demo](assets/annotation_tool.png "Our self-build annotation tool.")
 
 
+# Authors
+
+* Maximillian Franz
+* Sandro Braun
+* Leander Kurscheidt
+
+# Acknowledgments
+
+* Carsten Bullemer - Thank you for valuable advice towards this project idea.
